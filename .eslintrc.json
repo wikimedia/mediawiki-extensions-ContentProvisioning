@@ -1,0 +1,20 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"parserOptions": {
+		"sourceType": "commonjs"
+	},
+	"globals": {
+		"contentProvisioning": "readonly",
+		"OOJSPlus": "readonly"
+	},
+	"rules": {
+		"max-len": "off",
+		"no-jquery/no-global-selector": "off",
+		"no-prototype-builtins": "off"
+	}
+}
