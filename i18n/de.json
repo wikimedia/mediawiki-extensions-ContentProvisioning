@@ -5,6 +5,7 @@
 		]
 	},
 	"contentprovisioning-desc": "Bietet einen Überblick über die zur Verfügung gestellten Seiten und ermöglicht Administratoren die Synchronisierung von Inhalten",
+	"contentprovisioning": "Inhaltsbereitstellung",
 	"contentprovisioning-ui-overview-grid-section-page": "Seite",
 	"contentprovisioning-ui-overview-grid-section-in-sync": "synchronisiert?",
 	"contentprovisioning-ui-overview-grid-action-force-sync": "Synchronisierung erzwingen",

@@ -5,6 +5,7 @@
 		]
 	},
 	"contentprovisioning-desc": "Provides an overview of provisioned pages and allows administrators to synchronise content",
+	"contentprovisioning": "Content provisioning",
 	"right-contentprovisioning-viewspecialpage": "View content provisioning special page",
 	"action-contentprovisioning-viewspecialpage": "View content provisioning special page",
 	"contentprovisioning-ui-overview-grid-section-page": "Page",

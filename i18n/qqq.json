@@ -5,6 +5,7 @@
 		]
 	},
 	"contentprovisioning-desc": "Description of ContentProvisioning for [[Special:Version]]",
+	"contentprovisioning": "Special page name",
 	"right-contentprovisioning-viewspecialpage": "{{doc-right|contentprovisioning-viewspecialpage}}",
 	"action-contentprovisioning-viewspecialpage": "{{doc-action|contentprovisioning-viewspecialpage}}",
 	"contentprovisioning-ui-overview-grid-section-page": "Label for the 'Page' column in the ContentProvisioning overview grid.",
