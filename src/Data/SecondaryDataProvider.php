@@ -13,9 +13,6 @@ class SecondaryDataProvider implements ISecondaryDataProvider {
 	 */
 	private $context;
 
-	/**
-	 *
-	 */
 	public function __construct() {
 		$this->context = RequestContext::getMain();
 	}
