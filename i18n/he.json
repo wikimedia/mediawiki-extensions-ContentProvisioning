@@ -5,5 +5,8 @@
 		]
 	},
 	"contentprovisioning-ui-overview-grid-section-page": "דף",
+	"contentprovisioning-ui-overview-grid-section-in-sync": "מסונכרן?",
+	"contentprovisioning-ui-overview-grid-action-force-sync": "כפה סנכרון",
+	"contentprovisioning-ui-overview-grid-action-show-diff": "הצגת שינויים",
 	"contentprovisioning-ui-content-diff-headline-wiki-content": "ויקי"
 }
