@@ -8,9 +8,14 @@ use MediaWiki\SpecialPage\SpecialPage;
 class ContentProvisioning extends SpecialPage {
 
 	public function __construct() {
+		parent::__construct( 'ContentProvisioning' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
 		// TODO: Fix permissions here, for some reason permission 'contentprovisioning-viewspecialpage' does not work
-		//parent::__construct( 'ContentProvisioning', 'contentprovisioning-viewspecialpage' );
-		parent::__construct( 'ContentProvisioning', 'edit' );
+		//return 'contentprovisioning-viewspecialpage';
+		return 'edit';
 	}
 
 	/**
