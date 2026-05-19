@@ -12,5 +12,6 @@
 	"contentprovisioning-ui-content-diff-title": "콘텐츠 차이점",
 	"contentprovisioning-ui-overview-grid-section-page": "문서",
 	"contentprovisioning-ui-overview-grid-section-in-sync": "동기화 여부",
-	"contentprovisioning-ui-content-diff-headline-wiki-content": "위키"
+	"contentprovisioning-ui-content-diff-headline-wiki-content": "위키",
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "원격"
 }
