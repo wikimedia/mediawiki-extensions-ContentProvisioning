@@ -5,9 +5,16 @@
 			"Neriah"
 		]
 	},
+	"contentprovisioning-desc": "מספקת סקירה של דפים מסופקים ומאפשרת למפעילים לסנכרן תוכן",
+	"contentprovisioning": "אספקת תוכן",
+	"right-contentprovisioning-viewspecialpage": "צפייה בדף המיוחד של אספקת תוכן",
+	"action-contentprovisioning-viewspecialpage": "לצפות בדף המיוחד של אספקת תוכן",
 	"contentprovisioning-ui-overview-grid-section-page": "דף",
 	"contentprovisioning-ui-overview-grid-section-in-sync": "מסונכרן?",
 	"contentprovisioning-ui-overview-grid-action-force-sync": "לכפות סנכרון",
 	"contentprovisioning-ui-overview-grid-action-show-diff": "הצגת שינויים",
-	"contentprovisioning-ui-content-diff-headline-wiki-content": "ויקי"
+	"contentprovisioning-diff-no-change": "אין הבדל בין גרסת המצהר לבין הגרסה בדף הוויקי",
+	"contentprovisioning-ui-content-diff-title": "הבדלים בתוכן",
+	"contentprovisioning-ui-content-diff-headline-wiki-content": "ויקי",
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "מרוחק"
 }
