@@ -7,7 +7,7 @@
 	"contentprovisioning-desc": "Ofrece unha visión xeral das páxinas aprovisionadas e permite á administración sincronizar contido",
 	"contentprovisioning": "Aprovisionamento de contido",
 	"right-contentprovisioning-viewspecialpage": "Ver a páxina especial de aprovisionamento de contido",
-	"action-contentprovisioning-viewspecialpage": "Ver a páxina especial de aprovisionamento de contido",
+	"action-contentprovisioning-viewspecialpage": "ver a páxina especial de aprovisionamento de contido",
 	"contentprovisioning-ui-overview-grid-section-page": "Páxina",
 	"contentprovisioning-ui-overview-grid-section-in-sync": "Está sincronizada?",
 	"contentprovisioning-ui-overview-grid-action-force-sync": "Forzar a sincronización",
