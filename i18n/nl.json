@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie"
+			"McDutchie",
+			"Siebrand"
 		]
 	},
 	"contentprovisioning-desc": "Biedt een overzicht van aangeleverde pagina’s en stelt beheerders in staat om inhoud te synchroniseren",
