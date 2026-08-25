@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"contentprovisioning-desc": "Waxay bixisaa dulmar ku saabsan bogagga la diyaariyey waxayna u oggolaanaysaa maamulayaasha inay isku waafajiyaan nuxurka",
+	"contentprovisioning": "Diyaarinta nuxurka",
+	"right-contentprovisioning-viewspecialpage": "Fiiri bogga gaarka ah ee diyaarinta nuxurka",
+	"action-contentprovisioning-viewspecialpage": "fiiri bogga gaarka ah ee diyaarinta nuxurka",
+	"contentprovisioning-ui-overview-grid-section-page": "Bog",
+	"contentprovisioning-ui-overview-grid-section-in-sync": "Ma is waafaqsan yihiin?",
+	"contentprovisioning-ui-overview-grid-action-force-sync": "Ku qas isku waafajinta",
+	"contentprovisioning-ui-overview-grid-action-show-diff": "Muuji kala duwanaanshaha",
+	"contentprovisioning-diff-no-change": "Farqi uma dhexeeyo nooca manifest-ka iyo nooca bogga wikiga",
+	"contentprovisioning-ui-content-diff-title": "Farqiga nuxurka",
+	"contentprovisioning-ui-content-diff-headline-wiki-content": "Wiki-ga",
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Fogaan"
+}

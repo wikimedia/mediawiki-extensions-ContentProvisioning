@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"contentprovisioning-desc": "د چمتو شويو مخونو يوه ټول‌کتنه وړاندې کوي او پازوالانو ته اجازه ورکوي چې منځپانگه همغږې کړي",
+	"contentprovisioning": "د منځپانگې چمتو کول",
+	"right-contentprovisioning-viewspecialpage": "د منځپانگې چمتوکولو ځانگړی مخ کتل",
+	"action-contentprovisioning-viewspecialpage": "د منځپانگې چمتوکولو ځانگړی مخ کتل",
+	"contentprovisioning-ui-overview-grid-section-page": "مخ",
+	"contentprovisioning-ui-overview-grid-section-in-sync": "په همغږۍ کې؟",
+	"contentprovisioning-ui-overview-grid-action-force-sync": "په زور همغږي‌کول",
+	"contentprovisioning-ui-overview-grid-action-show-diff": "توپيرونه ښودل",
+	"contentprovisioning-diff-no-change": "د بيان‌شوې او د ويکي مخ د بلبڼې ترمنځ هېڅ توپير نشته",
+	"contentprovisioning-ui-content-diff-title": "د منځپانگې توپيرونه",
+	"contentprovisioning-ui-content-diff-headline-wiki-content": "ويکي",
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "له‌لرې‌لاسرسی"
+}
