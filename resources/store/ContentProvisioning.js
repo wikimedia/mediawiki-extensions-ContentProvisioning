@@ -6,7 +6,7 @@ contentProvisioning.store.ContentProvisioning = function ( cfg ) {
 	contentProvisioning.store.ContentProvisioning.parent.call( this, cfg );
 };
 
-OO.inheritClass( contentProvisioning.store.ContentProvisioning, OOJSPlus.ui.data.store.Store );
+OO.inheritClass( contentProvisioning.store.ContentProvisioning, OOJSPlus.ui.data.store.RemoteStore );
 
 contentProvisioning.store.ContentProvisioning.prototype.doLoadData = function () {
 	const dfd = $.Deferred();
@@ -24,7 +24,7 @@ contentProvisioning.store.ContentProvisioning.prototype.doLoadData = function ()
 			}
 
 			this.total = response.total;
-			dfd.resolve( this.indexData( response.results ) );
+			dfd.resolve( this.processResponse( response ) );
 		} ).fail( ( jqXHR, statusText, error ) => {
 			console.dir( jqXHR ); // eslint-disable-line no-console
 			console.dir( statusText ); // eslint-disable-line no-console
