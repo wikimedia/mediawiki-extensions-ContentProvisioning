@@ -2,6 +2,8 @@
 
 namespace MediaWiki\Extension\ContentProvisioning\Rest;
 
+use MediaWiki\Context\RequestContext;
+use MediaWiki\Language\FormatterFactory;
 use MediaWiki\Rest\Handler;
 use MWStake\MediaWiki\Component\ContentProvisioner\EntitySync\WikiPageSync;
 use Wikimedia\ParamValidator\ParamValidator;
@@ -29,9 +31,11 @@ class SyncHandler extends Handler {
 
 	/**
 	 * @param WikiPageSync $wikiPageSync
+	 * @param FormatterFactory $formatterFactory
 	 */
 	public function __construct(
-		WikiPageSync $wikiPageSync
+		WikiPageSync $wikiPageSync,
+		private readonly FormatterFactory $formatterFactory
 	) {
 		$this->wikiPageSync = $wikiPageSync;
 	}
@@ -45,10 +49,11 @@ class SyncHandler extends Handler {
 		$pagePrefixedText = $this->unmaskPageTitle( $params['pagePrefixedText'] );
 
 		$status = $this->wikiPageSync->sync( $pagePrefixedText );
-		if ( $status->getErrors() ) {
+		if ( !$status->isOK() ) {
+			$formatter = $this->formatterFactory->getStatusFormatter( RequestContext::getMain() );
 			$res = [
 				'success' => false,
-				'error' => $status->getWikiText()
+				'error' => $formatter->getWikiText( $status ),
 			];
 		} else {
 			$res = [
