@@ -125,7 +125,8 @@
 			"method": "POST",
 			"class": "MediaWiki\\Extension\\ContentProvisioning\\Rest\\SyncHandler",
 			"services": [
-				"ContentProvisionerWikiPageSync"
+				"ContentProvisionerWikiPageSync",
+				"FormatterFactory"
 			]
 		}
 	],
