@@ -78,7 +78,9 @@
 				"contentprovisioning-ui-overview-grid-action-show-diff",
 				"contentprovisioning-ui-content-diff-title",
 				"contentprovisioning-ui-content-diff-headline-wiki-content",
-				"contentprovisioning-ui-content-diff-headline-provisioner-content"
+				"contentprovisioning-ui-content-diff-headline-provisioner-content",
+				"contentprovisioning-ui-error-generic",
+				"contentprovisioning-ui-sync-success"
 			],
 			"dependencies": [
 				"ext.oOJSPlus.data",

@@ -13,15 +13,18 @@ $( function () {
 	panel.connect( this, {
 		sync: function ( pagePrefixedText ) {
 			contentProvisioning._internal._getApi().done( ( api ) => { // eslint-disable-line no-underscore-dangle
-				api.forceSync( pagePrefixedText ).done( function ( response ) {
+				api.forceSync( pagePrefixedText ).done( ( ( response ) => {
 					if ( !response.hasOwnProperty( 'success' ) ) {
-						console.error( response.error ); // eslint-disable-line no-console
+						OO.ui.alert( mw.msg( 'contentprovisioning-ui-error-generic' ) );
 					}
 
-					this.store.reload().done( ( data ) => { // eslint-disable-line no-unused-vars
-						// Probably nothing to do here
-					} );
-				}.bind( panel ) ).fail( ( error ) => {
+					panel.store.reload();
+					window.panel = panel;
+					mw.notify(
+						mw.msg( 'contentprovisioning-ui-sync-success', pagePrefixedText ),
+						{ type: 'success' }
+					);
+				} ) ).fail( ( error ) => {
 					OO.ui.alert( error );
 				} );
 			} );
@@ -33,7 +36,6 @@ $( function () {
 
 					if ( !response.hasOwnProperty( 'diffHtml' ) ) {
 						if ( response.hasOwnProperty( 'error' ) ) {
-							console.error( response.error ); // eslint-disable-line no-console
 							diffHtml = response.error;
 						} else {
 							return;
