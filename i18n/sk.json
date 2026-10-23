@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"contentprovisioning-desc": "Poskytuje prehľad poskytnutých stránok a umožňuje správcom synchronizovať obsah",
+	"contentprovisioning": "Poskytovanie obsahu",
+	"right-contentprovisioning-viewspecialpage": "Zobrazenie špeciálnej stránky poskytovania obsahu",
+	"action-contentprovisioning-viewspecialpage": "zobraziť špeciálnu stránku poskytovania obsahu",
+	"contentprovisioning-ui-overview-grid-section-page": "Stránka",
+	"contentprovisioning-ui-overview-grid-section-in-sync": "Synchronizované?",
+	"contentprovisioning-ui-overview-grid-action-force-sync": "Vynútiť synchronizáciu",
+	"contentprovisioning-ui-overview-grid-action-show-diff": "Zobraziť rozdiel",
+	"contentprovisioning-diff-no-change": "Medzi verziou v manifeste a verziou stránky na wiki nie je rozdiel",
+	"contentprovisioning-ui-content-diff-title": "Rozdiely obsahu",
+	"contentprovisioning-ui-content-diff-headline-wiki-content": "Wiki",
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Vzdialený"
+}
