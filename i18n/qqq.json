@@ -16,5 +16,7 @@
 	"contentprovisioning-diff-no-change": "Message displayed when there are no differences between the wiki page and the provisioner content.",
 	"contentprovisioning-ui-content-diff-title": "Title of the dialog displaying content differences between wiki and provisioner.",
 	"contentprovisioning-ui-content-diff-headline-wiki-content": "Label used above the section showing the wiki page content in the content difference dialog.",
-	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Label used above the section showing the provisioner (remote) content in the content difference dialog."
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Label used above the section showing the provisioner (remote) content in the content difference dialog.",
+	"contentprovisioning-ui-error-generic": "Generic error message displayed when an unexpected error occurs during content provisioning operations.",
+	"contentprovisioning-ui-sync-success": "Success message displayed when a wiki page is successfully synchronized with the provisioner.\n$1 - page name"
 }
