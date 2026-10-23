@@ -15,5 +15,7 @@
 	"contentprovisioning-diff-no-change": "No difference between manifest version and wiki page version",
 	"contentprovisioning-ui-content-diff-title": "Content differences",
 	"contentprovisioning-ui-content-diff-headline-wiki-content": "Wiki",
-	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Remote"
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Remote",
+	"contentprovisioning-ui-error-generic": "An error occurred. Please try again later.",
+	"contentprovisioning-ui-sync-success": "Page $1 was successfully synchronized"
 }
