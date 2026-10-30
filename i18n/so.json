@@ -15,5 +15,7 @@
 	"contentprovisioning-diff-no-change": "Farqi uma dhexeeyo nooca manifest-ka iyo nooca bogga wikiga",
 	"contentprovisioning-ui-content-diff-title": "Farqiga nuxurka",
 	"contentprovisioning-ui-content-diff-headline-wiki-content": "Wiki-ga",
-	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Fogaan"
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Fogaan",
+	"contentprovisioning-ui-error-generic": "Khalad ayaa dhacay. Fadlan mar kale isku day goor dambe.",
+	"contentprovisioning-ui-sync-success": "Bogga $1 si guul leh ayaa loo waafajiyay"
 }
