@@ -15,5 +15,7 @@
 	"contentprovisioning-diff-no-change": "Non hai diferenzas entre a versión do manifesto e a versión da páxina wiki",
 	"contentprovisioning-ui-content-diff-title": "Diferenzas de contido",
 	"contentprovisioning-ui-content-diff-headline-wiki-content": "Wiki",
-	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Remoto"
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "Remoto",
+	"contentprovisioning-ui-error-generic": "Produciuse un erro. Inténtao de novo máis tarde.",
+	"contentprovisioning-ui-sync-success": "A páxina «$1» sincronizouse correctamente"
 }
