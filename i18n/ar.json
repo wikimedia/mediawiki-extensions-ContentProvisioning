@@ -15,5 +15,7 @@
 	"contentprovisioning-diff-no-change": "لا يوجد فرق بين نسخة البيان ونسخة صفحة ويكي",
 	"contentprovisioning-ui-content-diff-title": "اختلافات المحتوى",
 	"contentprovisioning-ui-content-diff-headline-wiki-content": "ويكي",
-	"contentprovisioning-ui-content-diff-headline-provisioner-content": "بعيد"
+	"contentprovisioning-ui-content-diff-headline-provisioner-content": "بعيد",
+	"contentprovisioning-ui-error-generic": "حدث خطأ رجاءً حاول مرة أخرى لاحقاً",
+	"contentprovisioning-ui-sync-success": "تم مزامنة الصفحة $1 بنجاح"
 }
