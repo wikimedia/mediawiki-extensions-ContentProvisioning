@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"LowensteinYang"
 		]
 	},
 	"contentprovisioning-desc": "提供已供應頁面的概要並允許管理員同步內容",
